@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(to bottom, rgb(4, 17, 109), rgb(1, 2, 54));
+    color: white;
+}
+
+#logo {
+    max-width: 60px;
+    border-radius: 8vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 5px aqua;
+}
+
+header h1 {
+    font-family: fantasy;
+    text-shadow: 0 0 3px aqua;
+}
+
+#header-kep {
+    background-image: url(../pictures/wallpapersden.com_starry-landscape-4k-cool-blue-moon_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-szoveg {
+    background-color: rgba(0, 0, 0, 0.683);
+    color: white;
+    max-width: 25rem;
+    padding-top: 4vh;
+    float: left;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.683);
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    transition: 1s;
+    color: aqua;
+}
+
+.content1, .content2 {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: justify;
+}
+
+.rublika {
+    max-width: 30rem;
+    background-color: rgba(10, 18, 58, 0.751);
+    border: 2px solid black;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 5vh;
+}
+
+.hirlevel {
+    background-image: url(../pictures/73d23b46ce5742a1bf8eb9c532a836df.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+h1 {
+    text-shadow: 0 0 3px black;
+}
+
+.vonal {
+    border-bottom: 1rem solid white;
+    color: white;
+    width: 8rem;
+    box-shadow: 0 0 5px black;
+}
+
+.feliratkozas {
+    background-color: rgba(0, 0, 0, 0.82);
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    width: 50%;
+    font-family: fantasy;
+    padding: 0.3rem;
+}
+
+.feliratkozas:hover {
+    transition: 1s;
+    color: aqua;
+    cursor: pointer;
+}
+
+.rublika2 {
+    max-width: 30rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.rublika2 img {
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.tudj-meg-tobbet {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.82);
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    font-family: fantasy;
+    padding: 0.3rem;
+}
+
+.tudj-meg-tobbet:hover {
+    transition: 1s;
+    color: aqua;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aszteroida {
+    background-image: url(../pictures/pia25253crop-e1778006433782.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.kapcsolat {
+    background-image: url(../pictures/960x0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
