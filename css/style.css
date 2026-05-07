@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, rgb(4, 17, 109), rgb(1, 2, 54));
+    background: linear-gradient(to bottom, rgba(4, 11, 59, 0.808), rgb(1, 2, 54));
     color: white;
 }
 
@@ -11,7 +11,7 @@ body {
     box-shadow: 0 0 5px aqua;
 }
 
-header h1 {
+.brand h1 {
     font-family: fantasy;
     text-shadow: 0 0 3px aqua;
 }
@@ -37,7 +37,10 @@ header h1 {
 
 .menu {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.683);
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1500;
 }
 
 .menu a {
@@ -72,7 +75,7 @@ h2 {
 }
 
 .hirlevel {
-    background-image: url(../pictures/73d23b46ce5742a1bf8eb9c532a836df.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../pictures/73d23b46ce5742a1bf8eb9c532a836df.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40vh;
@@ -112,11 +115,14 @@ h1 {
     max-width: 30rem;
     margin-right: 2rem;
     margin-left: 2rem;
+    background-color: rgba(10, 18, 58, 0.751);
+    border-radius: 30px;
 }
 
 .rublika2 img {
     border-radius: 20px;
     margin-bottom: 1rem;
+    margin-top: 1rem
 }
 
 .tudj-meg-tobbet {
@@ -127,6 +133,7 @@ h1 {
     text-align: center;
     font-family: fantasy;
     padding: 0.3rem;
+    margin-top: 1rem;
 }
 
 .tudj-meg-tobbet:hover {
@@ -140,7 +147,7 @@ a {
 }
 
 .aszteroida {
-    background-image: url(../pictures/pia25253crop-e1778006433782.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.235), rgba(0, 0, 0, 0.235)), url(../pictures/pia25253crop-e1778006433782.webp);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40vh;
@@ -150,7 +157,7 @@ a {
 }
 
 .kapcsolat {
-    background-image: url(../pictures/960x0.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.235), rgba(0, 0, 0, 0.235)), url(../pictures/960x0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40vh;
